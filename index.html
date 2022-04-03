@@ -6,6 +6,24 @@
     <link href="index.css" rel="stylesheet">
 </head>
 <body>
+<header>
+    <form id="color-picker-form">
+        <input id="seed-color" type="color">
+        <select id="color-scheme">
+            <option value="monochrome">monochrome</option>
+            <option value="monochrome-dark">monochrome-dark</option>
+            <option value="monochrome-light">monochrome-light</option>
+            <option value="analogic">analogic</option>
+            <option value="complement">complement</option>
+            <option value="analogic-complement">analogic-complement</option>
+            <option value="triad">triad</option>
+            <option value="quad">quad</option>
+        </select>
+        <button id="submit-btn" type="submit">Get color scheme</button>
+    </form>
+</header>
+<main id="color-board">
+</main>
 <script src="index.js"></script>
 </body>
 </html>
