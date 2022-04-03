@@ -38,14 +38,9 @@ function copyPassword() {
 }
 
 function setListener() {
-    const res0El = document.getElementById("res-0")
-    const res1El = document.getElementById("res-1")
-    const res2El = document.getElementById("res-2")
-    const res3El = document.getElementById("res-3")
-    const res4El = document.getElementById("res-4")
-    res0El.addEventListener('click', copyPassword);
-    res1El.addEventListener('click', copyPassword);
-    res2El.addEventListener('click', copyPassword);
-    res3El.addEventListener('click', copyPassword);
-    res4El.addEventListener('click', copyPassword);
+    document.getElementById("res-0").addEventListener('click', copyPassword);
+    document.getElementById("res-1").addEventListener('click', copyPassword);
+    document.getElementById("res-2").addEventListener('click', copyPassword);
+    document.getElementById("res-3").addEventListener('click', copyPassword);
+    document.getElementById("res-4").addEventListener('click', copyPassword);
 }
