@@ -85,7 +85,7 @@ header p {
     width: 100px;
 }
 
-#color-bar-text {
+.color-bar-text {
     margin-top: 5px;
     width: 80px;
     font-size: 18px;
