@@ -15,8 +15,10 @@ formEl.addEventListener("submit", event => {
             console.log(data.colors[0].hex.value)
             for(let color of data.colors){
                 html += `
-                <img src="${color.image.bare}">
-                <p>${color.hex.value}</p>
+                    <div class="color-bar">
+                        <img id="color-bar-image" src="${color.image.bare}">
+                        <input id="color-bar-text" value="${color.hex.value}"></input>
+                    </div>
             `
             }
             colorBoardEl.innerHTML = html

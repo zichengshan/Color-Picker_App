@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin:20px;
+    background-color: ghostwhite;
+}
+
+#color-board,
+header {
+    width: 800px;
+    padding: 20px;
+    margin:0px auto;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0;
+}
+
+header p {
+    font-size: 20px;
+}
+
+/*header form*/
+#color-picker-form {
+    display: flex;
+}
+
+#seed-color {
+    width: 6em;
+    height: 3em;
+    padding:0px;
+    margin: 0 40px;
+    border:2px solid white;
+}
+
+#color-scheme {
+    margin-right: auto;
+    width: 200px;
+}
+
+#submit-btn {
+    margin-right: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    background: purple;
+    color: white;
+    width: 150px;
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    transform: scale(1);
+    transition: transform 250ms;
+}
+#submit-btn:hover,
+#submit-btn:focus {
+    color: white;
+    transform: scale(1.1);
+}
+
+#submit-btn:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
+
+
+/*color bar*/
+#color-board {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#color-bar-image {
+    height: 500px;
+    width: 100px;
+}
+
+#color-bar-text {
+    margin-top: 5px;
+    width: 80px;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+}
+
